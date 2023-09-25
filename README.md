@@ -80,11 +80,18 @@ In web.php paste following
 Route::admineticAuth();
 ```
 
+Run The Local Server 
+
+```sh
+php artisan serve
+```
+
 This allows you to have necessary login credential
 
 > Admin Credential
 > email : admin@admin.com
 > password: admin123
+
 
 ## Notice
 
