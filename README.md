@@ -25,21 +25,18 @@ For detailed documentaion visit [Adminetic Documentation](https://pratikdai404.g
 - Theme Customization
 - Plugin Extensions
 
-## Installation Via Adminetic CLI
-Make sure to install adminetic cli
-```
-composer global require adminetic/cli
-```
 
-Make sure that you have created database named same as ur `project_name`
-```
-adminetic new project_name
-```
-All your setup process will be automated.
 ## Installation
 
-You can install the package via composer:
+Install the package via composer:
+open CMD in the folder you would like to install the project
 
+```bash
+composer create-project laravel/laravel new-project "10.*" --prefer-dist
+```
+Note : "new-project" is a name of your project  or app.. the command above will create a folder named "new-project" if you want your project name be "MySupperApp" then runn like like that:
+----->> composer create-project laravel/laravel MySupperApp "10.*" --prefer-dist
+ 
 ```bash
 composer require pratiksh/adminetic
 ```
